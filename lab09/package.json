@@ -1,10 +1,6 @@
 {
-    "dependencies": {
-      "edgedriver": "",
-      "selenium-webdriver": "^4.19.0",
-      "supertest": "^6.3.4"
-    },
-    "devDependencies": {
-      "jest": "^29.7.0"
-    }
+  "dependencies": {
+    "chromedriver": "",
+    "selenium-webdriver": "^4.20.0"
   }
+}
