@@ -21,6 +21,11 @@ const executeTest = async (driver) => {
         await premiumShopLink.click();
         await sleep(3000);
 
+        // Нажать на ссылку "Премиум магазин"
+        const AcceptCookie = await driver.findElement(By.id("cookie-banner__accept"));
+        await AcceptCookie.click();
+        await sleep(3000);
+
         // Выбрать пункт "Золото"
         const TankiLink = await driver.findElement(By.xpath("//a[@class='category-menu_link' and text()=' Золото ']"));
         await TankiLink.click();
