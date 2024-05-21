@@ -38,7 +38,7 @@ const executeTest = async (driver) => {
         await sleep(3000);
         await personalAccountPage.inputNewNickname('lordiii');
         await sleep(3000);
-        await personalAccountPage.AcceptNicknameButton();
+        await personalAccountPage.clickAcceptNicknameButton();
         await sleep(3000);
 
 
